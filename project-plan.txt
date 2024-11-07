@@ -1,0 +1,5 @@
+This is the plan for my blog page
+The body of the homepage will display the latest blog post
+Blog posts will be saved as local txt files, then imported via javascript
+The new-post page will include a form to create and save a blogpost, then save to a txt file
+The post page will display all blog post titles with date and time, and will include view, edit and delete buttons
