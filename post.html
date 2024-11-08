@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="postTitle"></h1>
+        <p id="postContent"></p>
+        <img id="postImage" src="" alt="Post Image" style="max-width: 100%; margin-top: 20px; display: none;">
+        <button id="editButton">Edit</button>
+        <div id="editForm" style="display: none;">
+            <h2>Edit Post</h2>
+            <form id="editPostForm">
+                <div>
+                    <label for="editTitle">Title:</label>
+                    <input type="text" id="editTitle" required>
+                </div>
+                <div>
+                    <label for="editContent">Content:</label>
+                    <textarea id="editContent" required></textarea>
+                </div>
+                <div>
+                    <label for="editImage">Optional Image URL:</label>
+                    <input type="url" id="editImage">
+                </div>
+                <button type="submit">Save Changes</button>
+            </form>
+        </div>
+    </div>
+    <a href="index.html">Back to Blog Posts</a>
+    <script src="post.js"></script>
+    
+</body>
+</html>
