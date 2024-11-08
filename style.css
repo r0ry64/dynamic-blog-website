@@ -23,6 +23,26 @@ h1 {
     margin-bottom: 20px;
 }
 
+form div {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -39,5 +59,16 @@ li {
 li:hover {
     background-color: lightgray;
     cursor: pointer;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
